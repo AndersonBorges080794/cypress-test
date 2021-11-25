@@ -1,0 +1,36 @@
+@import "../../../../styles/colors.scss";
+
+.contentWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center; 
+
+  background-color: $blue;
+  color: $white;
+
+  font-size: 20px;
+  padding: 18px;
+
+  img {
+    width: 70%;
+    height: auto;
+  }
+
+  a {
+    color: $white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .icon {
+      font-size: 40px;
+    }
+
+    &:hover {
+      color: $yellow;
+      transition: 0.5s;
+    }
+  }
+}
